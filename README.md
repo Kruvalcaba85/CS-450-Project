@@ -43,9 +43,11 @@ Now that we have everything installed and downloaded, you can use your desired P
 The recommendation system can be run directly through the Jupyter Notebook file. 
 For song recommendations, at _In[21]_, run the following code:
 `get_euclidean_recommendations('Song Title of Your Choice', features, df, final_df)`
+S.a.M will then give you 10 songs it thinks you'll like!
 
 For Movie Recommendations, at _In[44]_, run the following code:
 `get_content_recommendations('Movie Title of Your Choice', cosine_similarity_matrix)`
+S.a.M will then give you 10 movies it thinks you will like!
 
 **Note: Inputs are limited to the songs and movies included in the dataset**
 
